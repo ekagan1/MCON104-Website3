@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+}
+
+.signup {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: none;
+}
+
+.background {
+background: url('../img/security-privacy-image.jpg');
+background-size: cover;
+position: absolute;
+top: -150px;
+bottom: -20px;
+left: -20px;
+right: -20px;
+z-index: -1;
+filter: blur(20px);
+opacity: 0.8;
+}

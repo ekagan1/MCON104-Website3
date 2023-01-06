@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bug_smash.css" />
+    <title>Catch The Insect</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Insect</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" insect?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img
+               src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Roach</p>
+            <img
+               src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <a class="btn" id="menuButton" href="../html/main.html">Home</a>
+      <button class="btn" id="helpButton">Help</button>
+      <div class='help' id="help">
+        <table>
+          <tr>
+            <th></th>
+            <th>How to play</th>
+          </tr>
+          <tr>
+            <td>Goal of the game</td>
+            <td>Smash bugs, by clicking on them</td>
+          </tr>
+          <tr>
+            <td>How to win</td>
+            <td>You can't, this game goes on forever</td>
+          </tr>
+          <tr>
+            <td>What!?</td>
+            <td>Yeah, every bug you smash will add double</td>
+          </tr>
+        </table>
+      </div>
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet? <br>
+        You are playing an impossible game!!
+      </h5>
+    </div>
+
+    <script src="../js/bug_smash.js"></script>
+  </body>
+</html>

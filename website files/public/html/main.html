@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <title>The Game Spot - Elazar kagan</title>
+  </head>
+  <body>
+    <h1>The Game Spot</h1>
+    <div class="nav_container">
+        <button class="nav-btn open-btn">
+            <i class="fas fa-bars"></i> 
+          </button>
+          <div class="nav nav-black">
+            <div class="nav nav-red">
+              <div class="nav nav-white">
+                <button class="nav-btn close-btn">
+                  <i class="fas fa-times"></i>
+                </button>
+        
+                <img
+                  src="../img/logo_transparent.png"
+                  alt="Logo" class="logo">
+        
+                <ul class="list">
+                  <li><a href="../html/main.html">Home</a></li>
+                  <li><a href="../html/login.html">Sign in</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li>
+                    <ul>
+                      <li><a href="../html/bug_smash.html">Bug Smash</a></li>
+                      <li><a href="#">Battleship</a></li>
+                      <li><a href="#">Monopoly</a></li>
+                      <li><a href="#">Racing</a></li>
+                      <li><a href="#">Airport Simulator</a></li>
+                      <li><a href="#">Rocket League</a></li>
+
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="card-container toMove" id="card-container">
+      <div class="card" onclick="goToGame()">
+        <div class="img-container" id="img1">
+          <img
+            src="../img/Bug_smash.png"
+            alt="Bug Smash"
+          />
+        </div>
+        <div class="info">
+          <span class="number">#001</span>
+          <h3 class="name">Bug Smash</h3>
+          <small class="type"><span>The game is simple: Smash as many bugs as possible! The more bugs you smash, the more points you get ! Level up for better surprises :) There are colorful graphics, fun sound effects, and enough fun to last for hours.</span></small>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container" id="img2">
+          <img
+            src="../img/battle_ship.png"
+            alt="Battleship"
+          />
+        </div>
+        <h2 class="coming_soon" id="coming_soon1">Coming soon</h2>
+        <div class="info">
+          <span class="number">#002</span>
+          <h3 class="name">Battleship</h3>
+          <small class="type"><span>The object of Battleship is to try and sink all of the computers ships before they sink all of yours. All of the computers ships are somewhere on its board. You try and hit them by selecting the coordinates on the board.</span></small>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container" id="img3">
+          <img
+            src="../img/monopoly.png"
+            alt="Monopoly"
+          />
+        </div>
+        <h2 class="coming_soon" id="coming_soon2">Coming soon</h2>
+        <div class="info">
+          <span class="number">#003</span>
+          <h3 class="name">Monopoly</h3>
+          <small class="type"><span>Monopoly is a real-estate board game for two to eight players. The player's goal is to remain financially solvent while forcing opponents into bankruptcy by buying and developing pieces of property. The last player remaining on the board is the winner.</span></small>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container" id="img4">
+          <img
+            src="../img/sports-car.png"
+            alt="sports-car"
+          />
+        </div>
+        <h2 class="coming_soon" id="coming_soon3">Coming soon</h2>
+        <div class="info">
+          <span class="number">#004</span>
+          <h3 class="name">Racing Game</h3>
+          <small class="type"><span>Race in spectacular real-life locations with prestigious cars (Ferrari, Porsche, McLaren, etc.) to collect, upgrade and customize. Experience action-packed gameplay that rewards skillful play and risk-taking in single- or multiplayer.</span></small>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container" id="img5">
+          <img
+            src="../img/Airport.png"
+            alt="airport"
+          />
+        </div>
+        <h2 class="coming_soon" id="coming_soon4">Coming soon</h2>
+        <div class="info">
+          <span class="number">#005</span>
+          <h3 class="name">Airport Simulator</h3>
+          <small class="type"><span> As an airport CEO, your mission is to build and arrange interior and exterior areas, sign and manage partnerships with airlines, and control passenger flows and satisfaction.</span></small>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container" id="img6">
+          <img
+            src="../img/rocket_league.png"
+            alt="rocket_league"
+          />
+        </div>
+        <h2 class="coming_soon" id="coming_soon5">Coming soon</h2>
+        <div class="info">
+          <span class="number">#006</span>
+          <h3 class="name">Rocket League</h3>
+          <small class="type"><span>Rocket League features a competitive game mode based on teamwork and outmaneuvering opponents. Players work with their team to advance the ball down the field, and score goals in their opponents' net.</span></small>
+        </div>
+      </div>
+      <div class="footer">
+        <h3>Created by: Elazar Kagan<br>MCON104 - Website #3</h3>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/nav.js"></script>
+  </body>
+</html>
